@@ -18,10 +18,9 @@ The whole implementation was done using HTML and css only
 
 Tailwind is awesome but it comes with turns of utility classes that one may not use in the design. Luckily, there are many ways to strip these unused classes from the final bundle. I used the combination of a custom config, purge css and css nano to specify the utility classes I needed, and strip out the unused ones as will as formatting and comments to result in a much smaller final file (from the original 477.6kb to about 13kb).
 
-
 ## Deployment
 
-The application is hosted on heroku: [click here](https://clinton-shop.herokuapp.com/)
+The application is hosted on Github pages: [click here](https://veraclins.github.io/shopmate-uiux/). To see the item page, click any of the products on the home page (any of the cards). To see the cart, click the shopping cart icon
 
 ## Time Spent
 
