@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,700|Playfair+Display:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="build/styles.css">
+    <title>Shopmate UI/UX</title>
+  </head>
+  <body class="font-openSans">
+    <nav class="flex items-center justify-between flex-wrap bg-white font-montserrat px-10 py-3">
+      <div class="flex items-center mr-6">
+        <div class="font-semibold tracking-widest">
+          Hi! <span class="text-brand">Sign In</span> or <span class="text-brand">Register</span>
+        </div>
+      </div>
+      <div class="w-full sm:w-3/4 flex flex-col sm:flex-row flex-grow justify-between items-center text-lg">
+        <div class="flex w-full sm:w-1/2 flex-col sm:flex-row mx-10 mb-4 sm:mb-0 items-center justify-between">
+          <a href="#" class="hover:text-brandBlue mx-4">Daily Deals</a>
+          <a href="#" class="hover:text-brandBlue mx-4">Sell</a>
+          <a href="#" class="hover:text-brandBlue mx-4">Help & Contact</a>
+        </div>
+        <div class="flex w-full sm:w-1/3 flex-col sm:flex-row items-center justify-between">
+          <div class="flex">
+          <img src="./Icon/gbr.png" alt="">
+          <p class="mx-4">£ GBP</p>
+          </div>
+          <div class="flex items-center">
+            <a href="cart.html" class="relative flex justify-center sm:justify-end h-10 px-3 mt-4 sm:mt-0 w-12">
+              <button class="flex h-full">
+                <img src="./Icon/icons-bag.png" alt="">
+              </button>
+                <div class="absolute flex justify-center items-center text-base bg-brand font-normal rounded-full text-white w-6 h-6 top-0 right-0 -mt-1">
+                  6
+                </div>
+            </a>
+            <p class="mx-4">Your bag: £3.99</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <nav class="flex items-center justify-between flex-wrap bg-dark font-montserrat px-10 py-5">
+      <div class="flex items-center flex-shrink-0 text-brand mr-6">
+        <a href="index.html" class="font-semibold text-3xl tracking-widest">SHOPMATE</a>
+      </div>
+      <div class="w-full flex flex-col sm:flex-row flex-grow text-white items-center sm:w-auto text-lg">
+        <div class="flex flex-1 flex-col sm:flex-row mx-10 items-center justify-between">
+          <a href="#" class="hover:text-brandBlue mx-4">Women</a>
+          <a href="#" class="hover:text-brandBlue mx-4">Men</a>
+          <a href="#" class="hover:text-brandBlue mx-4">Kids</a>
+          <a href="#" class="hover:text-brandBlue mx-4">Shoes</a>
+          <a href="#" class="hover:text-brandBlue mx-4">Brand</a>
+        </div>
+        <div class="flex flex-col sm:flex-row items-center justify-between">
+          <div class="relative mt-4 sm:mt-0 w-full mr-0 sm:mr-6">
+            <button class="absolute h-full left-0 top-0 py-2 pl-4">
+              <img src="./Icon/icons-search-white.png" alt="">
+            </button>
+            <input class="shadow appearance-none rounded-full w-full py-2 px-12 font-normal bg-lightGrey leading-tight focus:outline-none" name="search" type="text" placeholder="search anything">
+            <button class="absolute  h-full right-0 top-0 py-2 mr-4">
+              <img src="./Icon/icons-close-small-white.png" alt="">
+            </button>
+          </div>
+          <a href="cart.html" class="relative flex justify-center sm:justify-end h-10 px-3 mt-4 sm:mt-0 w-12">
+            <button class="flex h-full">
+              <img src="./Icon/icons-bag-white.png" alt="">
+            </button>
+              <div class="absolute flex justify-center items-center text-base bg-white font-normal rounded-full text-brand w-6 h-6 top-0 right-0 -mt-1">
+                6
+              </div>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <main class="bg-light h-auto p-4 sm:p-10">
+      <section class="bg-local bg-cover bg-center h-full p-8 sm:py-12 sm:px-16" style="background-image: url('./Images/Images-modal4.png')">
+        <h1 class="font-bold font-playFair text-6xl">
+          Mens wear
+        </h1>
+        <div class="flex w-full, sm:w-3/4 justify-between font-semibold text-lg flex-wrap">
+          <div class="h-full flex flex-col justify-between text-white">
+            <p class="py-2">Accessories</p>
+            <p class="py-2">ASOS Basic Tops</p>
+            <p class="py-2">Bags</p>
+            <p class="py-2">Caps & Hats</p>
+            <p class="py-2">Gifts</p>
+            <p class="py-2">Grooming</p>
+          </div>
+          <div class="h-full flex flex-col justify-between text-white">
+            <p class="py-2">Hoodies & Sweatshirts</p>
+            <p class="py-2">Jackets & Coats</p>
+            <p class="py-2">Jeans</p>
+            <p class="py-2">Jewellery</p>
+            <p class="py-2">Joggers</p>
+            <p class="py-2">Jumpers and Card shadowigans</p>
+          </div>
+          <div class="h-full flex flex-col justify-between text-white">
+            <p class="py-2">Leather Jackets</p>
+            <p class="py-2">Long Sleeve T-shirts</p>
+            <p class="py-2">Loungewear</p>
+            <p class="py-2">Oversized and Longline</p>
+            <p class="py-2">Polo Shirts</p>
+            <p class="py-2">Shirts</p>
+          </div>
+        </div>
+      </section>
+      <section class="flex w-full mt-8 flex-wrap">
+        <div class="w-full sm:w-1/4 sm:mr-2 text-xl">
+          <div class="flex flex-col">
+            <div class="flex flex-col shadow p-8">
+              <p class="font-semibold text-2xl mb-4">Filter 486 items</p>
+              <div class="flex">
+                <div class="font-semibold text-xl pr-1">&#10006;</div>
+                <p class="opacity-40 pr-2">Gender: </p>
+                <p class="">Woman</p>
+              </div>
+              <div class="flex">
+                <div class="font-semibold text-xl pr-1">&#10006;</div>
+                <p class="opacity-40 pr-2">Category: </p>
+                <p class="">Dresses</p>
+              </div>
+            </div>
+            <div class="flex flex-col shadow p-8 bg-white">
+              <p class="font-bold text-2xl mb-4 opacity-50">Color</p>
+              <div class="flex justify-between items-center mb-4">
+                <div class="flex justify-center items-center rounded-full bg-white w-10 h-10  border border-lightGrey mx-1">
+                  <div class="rounded-full bg-brandBlue w-6 h-6">
+                  </div>
+                </div>
+                <div class="rounded-full bg-brandGreen w-6 h-6 mx-1"></div>
+                <div class="rounded-full bg-brand w-6 h-6 mx-1"></div>
+                <div class="rounded-full bg-orange-400 w-6 h-6 mx-1"></div>
+                <div class="rounded-full bg-yellow-400 w-6 h-6 mx-1"></div>
+                <div class="rounded-full bg-green-400 w-6 h-6 mx-1"></div>
+                <div class="rounded-full bg-brandPurple w-6 h-6 mx-1"></div>
+              </div>
+              <p class="font-bold text-2xl mb-4 opacity-50">Size</p>
+              <div class="flex flex-wrap">
+                <div class="bg-lighterGrey rounded-sm text-center text-grey font-semibold text-lg px-3 py-1 m-2 ml-0 w-20">XS</div>
+                <div class="bg-brand rounded-sm text-center text-white font-semibold text-lg px-3 py-1 m-2 ml-0  w-20">S</div>
+                <div class="bg-lighterGrey rounded-sm text-center text-grey font-semibold text-lg px-3 py-1 m-2 ml-0 w-20">M</div>
+                <div class="bg-lighterGrey rounded-sm text-center text-grey font-semibold text-lg px-3 py-1 m-2 ml-0 w-20">L</div>
+                <div class="bg-lighterGrey rounded-sm text-center text-grey font-semibold text-lg px-3 py-1 m-2 ml-0 w-20">XL</div>
+              </div>
+              <p class="font-bold text-2xl my-4 opacity-50">Prize Range</p>
+              <div class="flex items-center w-full">
+                <div class="w-8 bg-lighterGrey h-1 mr-1"></div>
+                <div class="rounded-full bg-brand w-3 h-3"></div>
+                <div class="flex-1 bg-brand h-1 mx-1"></div>
+                <div class="rounded-full bg-brand w-3 h-3"></div>
+                <div class="w-16 bg-lighterGrey h-1 ml-1"></div>
+              </div>
+              <div class="flex justify-between items-center w-full my-2">
+                <div class="opacity-75 text-base">
+                  £4
+                </div>
+                <div class="opacity-75 text-base">
+                  £28
+                </div>
+              </div>
+              <p class="font-bold text-2xl mb-4 opacity-50">Brand</p>
+              <div class="flex justify-between">
+                <div class="flex flex-col">
+                  <label class="inline-flex items-center my-1">
+                    <input type="checkbox" class="form-checkbox h-6 w-6" checked>
+                    <span class="ml-3 text-lg">Abercrombie &</span>
+                  </label>
+                  <label class="inline-flex items-center my-1">
+                    <input type="checkbox" class="form-checkbox h-6 w-6">
+                    <span class="ml-3 text-lg">Fitch</span>
+                  </label>
+                  <label class="inline-flex items-center my-1">
+                    <input type="checkbox" class="form-checkbox h-6 w-6" checked>
+                    <span class="ml-3 text-lg">Adidas Originals</span>
+                  </label>
+                  <label class="inline-flex items-center my-1">
+                    <input type="checkbox" class="form-checkbox h-6 w-6" checked>
+                    <span class="ml-3 text-lg">ASOS</span>
+                  </label>
+                  <label class="inline-flex items-center my-1">
+                    <input type="checkbox" class="form-checkbox h-6 w-6">
+                    <span class="ml-3 text-lg">Cheap Monday</span>
+                  </label>
+                </div>
+                <div class="flex flex-col">
+                  <div class="h-12 bg-lighterGrey w-1">
+                  </div>
+                  <div class="h-8 bg-grey w-1">
+                  </div>
+                  <div class="flex-1 bg-lighterGrey w-1">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex shadow pt-6 pb-8 px-6 justify-between items-center">
+              <button class="btn btn-sm bg-brand text-white">
+                Apply
+              </button>
+              <div class="flex items-center">
+                <div class="font-semibold text-xl pr-1 text-brand">&#10060;</div>
+                <div class="text-brand font-semibold m-2">
+                  Clear all
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex w-full sm:w-3/4 sm:-mr-4 sm:ml-2 flex-wrap">
+          <div class="px-4 w-full sm:w-1/3 mb-8">
+            <a href="item.html" class="card sm:px-8 py:8 sm:py-12">
+              <img src="./Images/images-shirt5.png" alt="" class="h-64 mb-6">
+              <p class="font-semibold text-xl pb-1">
+                Men's Knitwear Offers
+              </p>
+              <button class="btn btn-sm bg-brand text-white">
+                Buy now
+              </button>
+            </a>
+          </div>
+          <div class="px-4 w-full sm:w-1/3 mb-8">
+            <a href="item.html" class="card sm:px-8 py:8 sm:py-12 shadow-2xl h-full">
+              <div class="flex flex-col items-center relative">
+                <div class="flex flex-col items-center opacity-5">
+                  <img src="./Images/images-shirt6.png" alt="" class="h-64 mb-4">
+                  <p class="font-semibold text-xl">
+                    Men Casual Lizard
+                  </p>
+                  <p class="text-dark">£14.99</p>
+                  <div class="flex justify-center items-center">
+                    <div class="flex justify-center items-center rounded-full bg-white w-10 h-10 border border-lightGrey mx-1">
+                      <div class="rounded-full bg-brandBlue w-6 h-6">
+                      </div>
+                    </div>
+                    <div class="rounded-full bg-brandGreen w-6 h-6 mx-1">
+                    </div>
+                    <div class="rounded-full bg-brand w-6 h-6 mx-1">
+                    </div>
+                  </div>
+                </div>
+                <div class="flex flex-col items-center justify-center absolute bottom-0 h-56">
+                  <img src="./Icon/icons-heart-red.png" alt="" class="mb-12">
+                  <button class="btn btn-sm bg-brand px-3 text-white">
+                    Quick view
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="px-4 w-full sm:w-1/3 mb-8">
+            <a href="item.html" class="card sm:px-8 py:8 sm:py-12">
+              <p class="font-semibold text-xl pb-1">
+                Men's Knitwear Offers
+              </p>
+              <img src="./Images/images-shirt7.png" alt="" class="h-64 mb-6">
+              <p class="text-brand font-semibold m-2 py-2">
+                From £4.99
+              </p>
+            </a>
+          </div>
+          <div class="px-4 w-full sm:w-1/3 mb-8">
+            <a href="item.html" class="card sm:px-8 py:8 sm:py-12">
+              <div class="relative">
+                <img src="./Images/images-shirt8.png" alt="" class="h-64 mb-6 sm:-mt-6">
+                <div class="absolute bg-brand text-white font-semibold text-lg px-3 top-0 left-0 sm:-mt-4">
+                  HOT
+                </div>
+              </div>
+              <p class="font-semibold text-center text-xl pb-1">
+                New Look T-shirt In Gradient Fade
+              </p>
+              <p class="text-brand font-semibold m-2 pt-2 pb-1">
+                From £4.99
+              </p>
+            </a>
+          </div>
+          <div class="px-4 w-full sm:w-1/3 mb-8">
+            <a href="item.html" class="card sm:px-8 py:8 sm:py-12">
+              <img src="./Images/images-shirt9.png" alt="" class="h-64 mb-6">
+              <p class="font-semibold text-xl pb-1">
+                Novelty T-shirts
+              </p>
+              <button class="btn btn-sm bg-brand text-white">
+                Buy now
+              </button>
+            </a>
+          </div>
+          <div class="px-4 w-full sm:w-1/3 mb-8">
+            <a href="item.html" class="card sm:px-8 py:8 sm:py-12">
+              <div class="flex flex-col items-center">
+                <img src="./Images/images-shirt10.png" alt="" class="h-64 mb-6 sm:-mt-4">
+                <p class="font-semibold text-xl pb-1">
+                  Various T-shorts
+                </p>
+                <p class="text-dark">£14.99</p>
+                <div class="flex justify-center items-center mt-2">
+                  <div class="flex justify-center items-center rounded-full bg-white w-10 h-10 border border-lightGrey mx-1">
+                    <div class="rounded-full bg-brandBlue w-6 h-6">
+                    </div>
+                  </div>
+                  <div class="rounded-full bg-brandGreen w-6 h-6 mx-1">
+                  </div>
+                  <div class="rounded-full bg-brand w-6 h-6 mx-1">
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="flex w-full">
+        <div class="flex w-full flex-wrap">
+          <div class="px-4 sm:pr-4 sm:pl-0 w-full sm:w-1/3 mb-8">
+            <a href="item.html" class="card sm:px-12 py:8 sm:py-12">
+              <div class="relative w-full flex justify-center">
+                <img src="./Images/images-shirt13.png" alt="" class="h-64 mb-6">
+                <div class="absolute bg-brand text-white font-semibold text-lg px-3 top-0 left-0">
+                  HOT
+                </div>
+              </div>
+              <p class="font-semibold text-xl text-center px-8 sm:px-16 pb-1">
+                Pull&Bear Jumper In Textured Knit In Blue
+              </p>
+              <p class="text-brand font-semibold text-2xl m-2 py-2">
+                £14.99
+              </p>
+            </a>
+          </div>
+          <div class="px-4 w-full sm:w-1/3 mb-8">
+            <a href="item.html" class="card sm:px-12 py:8 sm:py-12 shadow-2xl h-full">
+              <div class="flex flex-col items-center relative h-full w-full">
+                <div class="flex flex-col items-center opacity-5  absolute top-0">
+                  <img src="./Images/images-shirt12.png" alt="" class="h-64 mb-6">
+                </div>
+                <div class="flex flex-col justify-between items-center h-full w-full pt-8 pb-4 px-4">
+                  <p class="font-semibold text-xl pb-1">
+                    Harajuku T-shirt
+                  </p>
+                  <p class="text-brand font-semibold text-2xl m-2 py-4">£14.99</p>
+                  <div class="flex justify-center items-center mt-2 pt-8 pb-4">
+                    <div class="flex justify-center items-center rounded-full bg-white w-10 h-10 border border-lightGrey mx-1">
+                      <div class="rounded-full bg-brandBlue w-6 h-6">
+                      </div>
+                    </div>
+                    <div class="rounded-full bg-brandGreen w-6 h-6 mx-1">
+                    </div>
+                    <div class="rounded-full bg-brand w-6 h-6 mx-1">
+                    </div>
+                  </div>
+                  <div class="flex py-4">
+                    <button class="btn btn-sm btn-outline opacity-75 border-lightGrey">
+                      <span>Size</span>
+                      <img src="./Icon/angle-down.png" alt="" class="inline pl-2 h-2">
+
+                    </button>
+                    <button class="btn btn-sm bg-brand text-white">
+                      Buy now
+                    </button>
+                  </div>
+                  <div class="flex pt-4">
+                    <img src="./Icon/icons-heart-red.png" alt="">
+                    <p class="text-grey px-2">Add to Wish List</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="px-4 sm:pr-0 sm:pl-4 w-full sm:w-1/3 mb-8">
+            <a href="item.html" class="card sm:px-12 py:8 sm:py-12 h-full">
+                <div class="flex flex-col items-center">
+                    <img src="./Images/images-shirt11.png" alt="" class="h-64 mb-6 sm:-mt-4">
+                    <p class="font-semibold text-xl pb-1">
+                        Men Casual Lizard
+                    </p>
+                    <p class="text-dark">£14.99</p>
+                    <div class="flex justify-center items-center mt-2">
+                      <div class="flex justify-center items-center rounded-full bg-white w-10 h-10 border border-lightGrey mx-1">
+                        <div class="rounded-full bg-brandBlue w-6 h-6">
+                        </div>
+                      </div>
+                      <div class="rounded-full bg-brandGreen w-6 h-6 mx-1">
+                      </div>
+                      <div class="rounded-full bg-brand w-6 h-6 mx-1">
+                      </div>
+                    </div>
+                  </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="font-bold bg-local bg-cover bg-center text-white h-full p-8 sm:py-12 sm:px-16" style="background-image: url('./Images/images-shoe2.png')">
+        <h1 class="font-bold font-playFair text-6xl pt-4">
+          Converse
+        </h1>
+        <div class="flex w-full justify-between font-semibold text-lg flex-wrap">
+          <p class="w-1/2 text-3xl flex flex-col justify-between text-white pr-4 py-2">
+            Explore styles strong enough to handle all your workouts
+          </p>
+        </div>
+        <button class="btn bg-white text-brand font-bold mt-6">
+          Shop Brand
+        </button>
+      </section>
+    </main>
+    <footer>
+      <section class="flex justify-between items-center flex-wrap bg-lighterGrey w-full p-4 sm:px-10 sm:py-6">
+        <p class="uppercase text-2xl opacity-75 font-bold">
+          Subscribe for shop news, updates and special offers
+        </p>
+        <div class="flex items-center w-full sm:w-1/3">
+          <div class="relative w-full">
+            <button class="absolute h-full left-0 top-0 py-2 pl-4">
+              <img src="./Icon/icons-email-black.png" alt="">
+            </button>
+            <input class="shadow appearance-none rounded-full w-full py-2 px-12 font-normal bg-white leading-tight focus:outline-none" name="email" type="text" placeholder="Your e-mail here">
+          </div>
+          <button class="btn btn-sm bg-brand text-white my-0 mr-0">
+            Subscribe
+          </button>
+        </div>
+      </section>
+        <div class="flex flex-col sm:flex-row w-2/3 text-2xl mx-10 py-4 items-center justify-between">
+          <a href="#" class="text-white hover:text-brandBlue mx-4">Women</a>
+          <a href="#" class="text-white hover:text-brandBlue mx-4">Men</a>
+          <a href="#" class="text-white hover:text-brandBlue mx-4">Kids</a>
+          <a href="#" class="text-white hover:text-brandBlue mx-4">Shoes</a>
+          <a href="#" class="text-white hover:text-brandBlue mx-4">Brand</a>
+        </div>
+        <div class="flex text-2xl py-4 items-center justify-center">
+          <img src="./Icon/icons-instagram-black.png" alt="" class="m-6">
+          <img src="./Icon/icons-pinterest-black.png" alt="" class="m-6">
+          <img src="./Icon/icons-twitter-black.png" alt="" class="m-6">
+          <img src="./Icon/icons-facebook-black.png" alt="" class="m-6">
+        </div>
+        <div class="flex flex-col sm:flex-row text-white opacity-40 py-4 items-center text-base justify-between sm:w-1/3">
+          <div>&copy;2019 Shopmate Ltd</div>
+          <div>&#9679;</div>
+          <a href="contact">Contact</a>
+          <div>&#9679;</div>
+          <a href="privacy">Privacy Policy</a>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
