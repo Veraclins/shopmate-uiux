@@ -10,7 +10,7 @@
   "author": "Agada Clinton",
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^9.6.1",
+    "autoprefixer": "^9.8.6",
     "tailwindcss": "^1.0.5"
   },
   "devDependencies": {
