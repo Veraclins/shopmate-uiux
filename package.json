@@ -10,8 +10,8 @@
   "author": "Agada Clinton",
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^9.6.1",
-    "tailwindcss": "^1.0.5"
+    "autoprefixer": "^10.0.0",
+    "tailwindcss": "^2.2.0"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
