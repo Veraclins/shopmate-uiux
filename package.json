@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^9.6.1",
-    "tailwindcss": "^1.0.5"
+    "tailwindcss": "^2.0.0"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
